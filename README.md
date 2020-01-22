@@ -26,3 +26,5 @@
     A           @       185.199.111.153
     ```
   - Turn on `Enforce HTTPS` once your DNS records are updated
+* Setup Renovate Bot for automatic dependency upgrades
+  * [Configure here](https://github.com/apps/renovate) and add permissions for your new repo
