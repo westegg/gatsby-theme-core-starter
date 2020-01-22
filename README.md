@@ -17,3 +17,12 @@
   - Go to your repo `Settings / Options / Github Pages`
   - Set `Source` as `gh-pages branch`
   - Set `Custom domain` to your domain
+  - Update your domain provider with the following records (optionally replace `@` with a subdomain)
+    ```
+    CNAME       @       {github username}.github.io.
+    A           @       185.199.108.153
+    A           @       185.199.109.153
+    A           @       185.199.110.153
+    A           @       185.199.111.153
+    ```
+  - Turn on `Enforce HTTPS` once your DNS records are updated
