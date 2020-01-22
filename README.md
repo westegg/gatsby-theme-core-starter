@@ -7,6 +7,13 @@
 # Getting Starter
 
 - Create new repo using this one as starter
-- Go to your Github account `Settings / Developer settings / Personal access tokens`
-- Create one named off your new repo and copy the token
-- Go to your new repo `Settings / Secrets` and create one with key `ACCESS_TOKEN` and the token as the value
+
+* Setup Github Actions
+  - Go to your Github account `Settings / Developer settings / Personal access tokens`
+  - Create one named off your new repo and copy the token
+  - Go to your new repo `Settings / Secrets` and create one with key `ACCESS_TOKEN` and the token as the value
+* Setup Github Pages
+  - Edit `CNAME` file in repo to your domain without `https://` prefix
+  - Go to your repo `Settings / Options / Github Pages`
+  - Set `Source` as `gh-pages branch`
+  - Set `Custom domain` to your domain
