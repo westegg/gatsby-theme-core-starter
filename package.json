@@ -9,7 +9,7 @@
   "dependencies": {
     "@westegg/gatsby-theme-core": "0.0.48",
     "gatsby": "2.20.22",
-    "react": "16.13.1",
+    "react": "16.14.0",
     "react-dom": "16.13.1"
   },
   "devDependencies": {
